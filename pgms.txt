@@ -1,0 +1,157 @@
+//Program-1
+
+import java.util.Scanner;
+class s{
+public static void main(String args[])
+{
+//int a=10,b=20,c;
+Scanner s=new Scanner(System.in);
+System.out.println("Enter the input");
+int b=10,c;
+int a=s.nextInt();
+int a1=a;
+c=a1+b;
+System.out.println(c);
+}
+}
+
+//Program-2
+import java.io.*;
+import java.util.Scanner;
+public class CandidateCode 
+{
+ 
+ public static void main(String[] args)
+ {
+ System.out.println("enter the input");
+ Scanner input = new Scanner (System.in);
+  if (input.hasNextInt())
+   System.out.println("This input is of type Integer.");
+   
+   else if (input.hasNextFloat())
+  System.out.println("This input is of type Float.");
+   
+  else if (input.hasNextLine())
+  System.out.println("This input is of type string."); 
+   
+  else if (input.hasNextDouble()) 
+  System.out.println("This input is of type Double."); 
+   
+  else if (input.hasNextBoolean())
+   System.out.println("This input is of type Boolean.");  
+   
+  else if (input.hasNextLong())
+    System.out.println("This input is of type Long."); 
+ }
+}
+
+//Program-3
+class avg{
+public static void main(String[] args)
+{
+int[] arr={1,2,3,4,5};
+int sum=0;
+for(int i=0;i<arr.length;i++)
+{
+sum=sum+arr[i];
+}
+double x;
+x=sum/arr.length;
+System.out.println(x);
+}
+}
+
+//Program-4
+import java.util.Scanner;
+
+public class passcheck {
+    
+public static final int pass_len=8;
+
+public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.print(
+                "1. A password must have at least eight characters.\n" +
+                "2. A password consists of only letters and digits.\n" +
+                "3. A password must contain at least two digits \n" +
+                "Input a password (You are agreeing to the above Terms and Conditions.): ");
+        String s = input.nextLine();
+
+        if (is_Valid_Password(s)) {
+            System.out.println("Password is valid: " + s);
+        } else {
+            System.out.println("Not a valid password: " + s);
+        }
+
+    }
+
+    public static boolean is_Valid_Password(String password) {
+
+        if (password.length() < pass_len) return false;
+
+        int charCount = 0;
+        int numCount = 0;
+        for (int i = 0; i < password.length(); i++) {
+
+            char ch = password.charAt(i);
+
+            if (is_Numeric(ch)) numCount++;
+            else if (is_Letter(ch)) charCount++;
+            else return false;
+        }
+
+
+        return (charCount >= 2 && numCount >= 2);
+    }
+
+    public static boolean is_Letter(char ch) {
+        ch = Character.toUpperCase(ch);
+        return (ch >= 'A' && ch <= 'Z');
+    }
+
+
+    public static boolean is_Numeric(char ch) {
+
+        return (ch >= '0' && ch <= '9');
+    }
+
+}
+
+//Program-4
+import java.util.*;
+public class sd{
+public static void main(String[] args)
+{
+System.out.println("Enter the number");
+Scanner s=new Scanner(System.in);
+int x=s.nextInt();
+int count=0;
+while(x!=0)
+{
+x=x/10;
+count++;
+}
+System.out.println(count);
+}
+}
+
+//Program-5
+import java.util.*;
+public class sd{
+public static void main(String[] args)
+{
+
+System.out.println(null);
+
+
+}
+}
+
+Output:Compilation Errors Detected
+Line: 6
+reference to println is ambiguous, both method println(char[]) in java.io.PrintStream and method println(java.lang.String) in java.io.PrintStream match
+
+//Program-6
+
+
