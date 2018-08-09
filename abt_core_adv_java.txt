@@ -1,0 +1,4 @@
+ Core Java refers to the "basics" that you learn first. This could include (but not limited to) JDK vs JRE vs JVM, What are: Classes & Objects, Constructors, Java Variables, Access Modifiers, Java Operators, Keywords, Overloading, Overriding, Exception, Collection, Inheritance, Strings, Arrays etc.
+
+Advanced Java includes the the higher-level complex things that you should only try when you have your basics right. 
+Some topics that 'may' come under this: Regular expressions, Logging, Bit manipulation, Serialisation, Networking with sockets, Remote Method Invocation, Java Database Connectivity etc, 

@@ -1,0 +1,12 @@
+ctrl+shift+i => for checking the variable value
+
+f6 =>line by line
+
+f5 =>it goes inside d method
+
+f8 =>one bfpoint to another
+
+
+
+
+
